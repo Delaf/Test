@@ -1,5 +1,5 @@
 # coding: UTF-8
-require 'telegram_bot'
+#require 'telegram_bot'
 
 tokenn = '1256536550:AAHdvWTfNzgHZnSS_geuVowGW5Q1XvpisCQ'
 
