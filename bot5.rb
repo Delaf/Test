@@ -4,7 +4,7 @@
 tokenn = '1256536550:AAHdvWTfNzgHZnSS_geuVowGW5Q1XvpisCQ'
 
 
-bot = TelegramBot.new(token: tokenn, url: 'https://185.8.157.204:26394')
+bot = TelegramBot.new(token: tokenn)
 bot.get_updates(fail_silently: true) do |message|
   puts "@#{message.from.username}: #{message.text}"
   command = message.get_command_for(bot)
